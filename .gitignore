@@ -1,0 +1,15 @@
+config/koneksi.php
+
+*.log
+*.session
+error_log
+cache/
+
+*.tmp
+*~
+*.bak
+
+.DS_Store
+Thumbs.db
+
+/vendor/
