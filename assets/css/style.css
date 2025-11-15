@@ -1,0 +1,146 @@
+/* === Global Style === */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px; /* Lebar maksimal */
+    margin: 20px auto; /* Auto di kiri/kanan = tengah */
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+}
+
+/* === Tombol (Buttons) === */
+.btn {
+    display: inline-block;
+    padding: 10px 15px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none; /* Hilangkan garis bawah link */
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-warning {
+    background-color: #ffc107;
+    color: #212529; /* Teks hitam agar terbaca */
+}
+.btn-warning:hover {
+    background-color: #e0a800;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+}
+.btn-danger:hover {
+    background-color: #c82333;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+}
+.btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+
+/* === Tabel (index.php) === */
+.styled-table {
+    width: 100%;
+    border-collapse: collapse; /* Satukan border */
+    margin: 20px 0;
+    font-size: 16px;
+    text-align: left;
+}
+
+.styled-table thead tr {
+    background-color: #333;
+    color: #ffffff;
+    text-align: left;
+}
+
+.styled-table th,
+.styled-table td {
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+}
+
+.styled-table tbody tr:nth-of-type(even) {
+    background-color: #f9f9f9; /* Warna zebra cross */
+}
+
+.styled-table tbody tr:hover {
+    background-color: #f1f1f1; /* Efek hover */
+}
+
+/* === Status Badge (index.php) === */
+.status {
+    padding: 5px 8px;
+    border-radius: 4px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+.status-tersedia {
+    background-color: #28a745; /* Hijau */
+}
+.status-dipinjam {
+    background-color: #ffc107; /* Kuning */
+    color: #212529; /* Teks hitam */
+}
+
+
+/* === Form (buku_tambah.php) === */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block; /* Label di atas input */
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-control {
+    width: 100%; /* Lebar penuh */
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    /* Agar ukuran input konsisten */
+    box-sizing: border-box; 
+}
+
+.btn-success {
+    background-color: #28a745;
+}
+.btn-success:hover {
+    background-color: #218838;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+}
+.btn-info:hover {
+    background-color: #138496;
+}
